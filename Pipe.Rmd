@@ -1,0 +1,22 @@
+---
+title: "Pipe"
+author: "YWJ"
+date: "10/31/2021"
+output: html_document
+---
+```{r}
+library("tidyverse")
+```
+
+```{r}
+v<-c(1, 14, 25, NA)
+is.na (v)
+```
+```{r}
+v <- c(1.62, 2.4, 3.9, 4.71)
+ round (v)
+ mean (round(v))
+ v %>% round ()
+```
+
+ 
